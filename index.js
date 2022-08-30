@@ -47,3 +47,28 @@ for(let i=0; i < feedingTimes.length; i++) {
 
 dogDetails.append(ul)
 
+
+let button = document.createElement('button');
+button.textContent = 'Click Me!'
+button.style.fontSize = '35px'
+dogDetails.append(button);
+
+
+button.addEventListener('click', function(){
+
+    updateMyPage();
+})
+
+
+function updateMyPage(){
+    ul.remove()
+
+    let link = document.createElement('link');
+    link.setAttribute('rel','stylesheet');
+    link.setAttribute('href','./styletwo.css');
+    
+    let head = document.querySelector('head');
+    head.append(link)
+    
+    paragraph.setAttribute('id','white-text')
+}

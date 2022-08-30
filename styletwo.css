@@ -1,0 +1,38 @@
+body {
+    background: red;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-size: 35px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+img {
+    border: 5px solid yellow;
+    border-radius: 25px;
+}
+
+ul {
+    color: aquamarine;
+    font-size: 30px;
+}
+
+.dog-name {
+    font-size: 75px;
+    text-align: center;
+}
+
+.dog-content {
+    border: 10px solid green;
+    border-radius: 25px;
+}
+
+
+#white-text {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
